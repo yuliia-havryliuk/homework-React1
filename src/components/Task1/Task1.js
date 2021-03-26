@@ -17,7 +17,7 @@ class Task1 extends Component {
             type="text"
             placeholder={'Введіть текст...'}
             onChange={this.changeInputValue}
-            maxLength={30}
+            maxLength={20}
           />
           {this.state.inputValue && <h1>{this.state.inputValue}</h1>}
         </div>
