@@ -19,7 +19,7 @@ class Task1 extends Component {
             onChange={this.changeInputValue}
             maxLength={30}
           />
-          <h3>{this.state.inputValue}</h3>
+          {this.state.inputValue && <h1>{this.state.inputValue}</h1>}
         </div>
       </div>
     );

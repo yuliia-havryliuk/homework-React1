@@ -12,14 +12,14 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.1"
   },
-  "homepage": "https://yuliia-havryliuk.github.io/homework-react-1/",
+  "homepage": "https://yuliia-havryliuk.github.io/homework-React1/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yuliia-havryliuk/homework-react-1.git"
+    "url": "https://github.com/yuliia-havryliuk/homework-React1.git"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pagess -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
