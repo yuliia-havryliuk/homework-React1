@@ -1,5 +1,5 @@
-h2{
-    text-shadow: 1px 1px 4px #DE9CFF;
+h2 {
+  text-shadow: 1px 1px 4px #de9cff;
 }
 .container {
   display: flex;
@@ -10,12 +10,12 @@ h2{
 .innerContainer {
   background-color: #ffcab6;
   margin-top: 40px;
-  padding: 15px;
+  padding: 25px;
   border-radius: 10px;
   color: #fff;
-    width:400px;
-    height:300px;
-    text-align:center;
+  width: 50%;
+  height: 300px;
+  text-align: center;
 }
 .btn {
   background-color: #d5b5ff;
@@ -28,7 +28,7 @@ h2{
 }
 .btn:hover {
   background-color: #fff;
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 .number {
   display: flex;

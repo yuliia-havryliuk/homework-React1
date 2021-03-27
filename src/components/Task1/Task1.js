@@ -9,6 +9,11 @@ class Task1 extends Component {
       inputValue: event.target.value,
     });
   };
+  clearInputValue = () => {
+    this.setState({
+      inputValue: '',
+    });
+  };
   render() {
     return (
       <div className={style.container}>
@@ -16,10 +21,18 @@ class Task1 extends Component {
           <input
             type="text"
             placeholder={'Введіть текст...'}
+            value={this.state.inputValue}
             onChange={this.changeInputValue}
-            maxLength={20}
+            maxLength={25}
           />
-          {this.state.inputValue && <h1>{this.state.inputValue}</h1>}
+          {this.state.inputValue && (
+            <div>
+              <h1>{this.state.inputValue}</h1>
+              <button className={style.btn} onClick={this.clearInputValue}>
+                Clear
+              </button>
+            </div>
+          )}
         </div>
       </div>
     );
